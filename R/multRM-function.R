@@ -111,7 +111,7 @@ multRM <- function(formula, data, subject, within,
   }
   
   input_list <- list(formula = formula, data = data,
-                     iter = iter, alpha = alpha, resampling = resampling, seed = seed)
+                     iter = iter, alpha = alpha, resampling = resampling, seed = seed, subject = subject)
   #--------------------------------------------------------------------------------#
   # prepare data for the calculations
   prepdt <- prepare.data(formula, data, subject, within)
